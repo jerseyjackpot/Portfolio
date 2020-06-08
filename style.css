@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto;
+
+}
+
 .name,
 .title,
 .welcome-message,
@@ -21,15 +29,20 @@
     padding-top: 5%;
     font-weight: bold;
 }
-.footer {
+.navbar-fixed-bottom {
+    position: static;
     padding: 5%;
+    padding-bottom: 5%;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
-    background-color: black;
+    background-color: #343a40;
     color: floralwhite;
+    margin-top: auto;
 }
 .social-media {
     color: gray;
     text-align: center;
+    padding-top: 2%;
 }
 h3 {
     text-align: center;
@@ -43,4 +56,12 @@ p{
     font-size: 30px;
     font-weight: bolder;
     color: hotpink;
+}
+h1 {
+    text-align: center;
+    color: gray;
+}
+.link {
+    padding-bottom: 2% ;
+    font-weight: bolder;
 }
