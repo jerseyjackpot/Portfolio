@@ -1,33 +1,21 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  overflow: auto;
+  background-attachment: fixed;
+  background-image: url("images/Website Photo Collage.jpg");
 }
 /* customized flow for ease of reading */
 
 .col {
-  padding: 20px;
+  padding: 50px;
+  align-items: center;
+  margin: 15px;
+}
+.row{
+  justify-content: center;
 }
 
-/* sticky footer customization */
-.navbar-fixed-bottom {
-  position: static;
-  padding: 5%;
-  padding-bottom: 5%;
-  font-family: "Orbitron", sans-serif;
-  text-align: center;
-  background-color: #343a40;
-  color: floralwhite;
-  margin-top: auto;
-}
-/* styled name on navbar */
-.hotpink {
-  font-family: "Orbitron", sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  color: hotpink;
-}
-.row {
-  margin: 20px;
+footer {
+  background-color: #9E8697;
+  width: 100%;
 }
