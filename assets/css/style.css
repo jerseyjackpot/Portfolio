@@ -12,13 +12,15 @@ body {
 }
 .col {
   padding-top: 2%;
-  width: 100%;
+  display: flex;
 }
 
 footer.page-footer {
   background-color: #5997aa;
   position: sticky;
-  height: 145px;
+  height: 50px;
+  z-index:1;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .fa {

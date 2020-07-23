@@ -11,6 +11,10 @@ a {
     z-index:1;
 }
 /* Icon 1 */
+.navbar-brand {
+    height: auto;
+    box-sizing: content;
+}
 
 .navbar:hover {
     background-color: #7E50A0;
