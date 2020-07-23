@@ -6,14 +6,10 @@ $(document).ready(function () {
   });
 
   $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-// function sendEmail()){
-//     var submitButton;
-    
-// }
+      $('.navbar-collapse').collapse('hide');
+  });
 
 
-// $("#body-for-email").on("change", function(event){
-// $("#email-for-class").attr("href", 'mailto:amaddatu@gmail.com?' + jQuery.param({body:   $('#body-for-email').val(), subject: "My first email"}));
+// $(".sendEmail").on("click", function(){
+//   $("#message").attr("href", 'mailto:jerseyjackpot@gmail.com?' + jQuery.param({body:    $('#message').val(), subject: "Portfolio Contact"}));
 // });

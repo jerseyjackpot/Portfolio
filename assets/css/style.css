@@ -1,21 +1,23 @@
 body {
+  display: flex;
   flex-direction: column;
   background-attachment: fixed;
   background-image: url("../images/Website Photo Collage.jpg");
 }
 
-.card {
+.row {
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
-  margin: 15px;
   padding: 10px;
 }
 .col {
   padding-top: 2%;
+  width: 100%;
 }
 
-.page-footer {
+footer.page-footer {
   background-color: #5997aa;
+  position: sticky;
   height: 145px;
 }
 
@@ -34,14 +36,18 @@ body {
 
 #copyright {
   padding-top: 20px;
+  text-align: center;
 }
 
+#footer-row {
+  background-color: #5997aa;
+}
 #animation-card {
   background-color: #5997aa;
   padding: 0%;
 }
 .btn-secondary {
-  background-color: #5997aa; 
+  background-color: #5997aa;
 }
 
 .btn {
@@ -51,7 +57,7 @@ body {
 }
 
 #contact {
-  background-color: #5997AA;
+  background-color: #5997aa;
   padding: 2%;
 }
 
