@@ -1,0 +1,45 @@
+body {
+  flex-direction: column;
+  background-attachment: fixed;
+  background-image: url("../images/Website Photo Collage.jpg");
+}
+/* customized flow for ease of reading */
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+}
+
+.page-footer {
+  background-color: black;
+  height: 145px;
+
+
+}
+.fa {
+  padding: 20px;
+  font-size: 45px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+#copyright {
+  padding-top: 20px;
+}
+
+.form-control {
+  width: auto;
+}
+
+#animation-card {
+  background-color: #f13f88;
+  padding: 0%;
+
+}

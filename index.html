@@ -7,30 +7,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Bootstrap CSS -->
-  <!-- CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
   <!-- external stylesheet for customization -->
-  <link rel="stylesheet" href="navbar.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/animation.css" />
+  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <!-- google font utilized for name on navbar -->
-  <link href="https://fonts.googleapis.com/css2?family=Lemonada&family=Orbitron&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
+  <!-- JS, Popper.js, and jQuery -->
+  <script type="text/javascript" src="assets/js/anime.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
   <title>Jacqueline A. Smith</title>
 </head>
 
 <body>
   <!--Navbar-->
-  <nav class="navbar white lighten-1 mb-4">
+  <nav class="navbar lighten-1 mb-4">
     <!-- Navbar brand -->
-    <a class="navbar-brand">Jacqueline A. Smith</a>
-
+    <a class="navbar-brand">Jacqueline A. Smith - Full Stack Developer</a>
     <!-- Collapse button -->
     <button class="navbar-toggler second-button" type="button" data-toggle="collapse"
       data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23" aria-expanded="false"
@@ -45,7 +54,7 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
@@ -62,129 +71,175 @@
     <!-- Collapsible content -->
   </nav>
   <!--/.Navbar-->
-
-  <section id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col col-md-10 card">
-          <h1>About Me</h1>
-          <img src="images/10365807_10203489929025956_934912519106296906_n.jpg" class="img-fluid" alt="Selfie2" />
+  <section id="home">
+    <div class="container-fluid">
+      <div class="row justify-content-center" id="animation-card">
+          <div class="dots-page">
+            <div class="overlay"></div>
+            <div class="animation-wrapper">
+              <div class="stagger-visualizer">
+                <div class="cursor color-red"></div>
+                <div class="dots-wrapper"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <br />
-    <!-- social media links and a brief bio added -->
-    <div class="row justify-content-center">
-      <div class="col col-md-10 card">
-        <h2 class="social-media">Brand Statement</h2>
-        <p class="text-md-center, text-wrap">
-          Full Stack Web Developer leveraging a history/law background to
-          build a more intuitive user experience on the web. A graduate from
-          Rutgers University with a certificate in Full Stack Web Development
-          and concentrated skills in JavaScript, CSS, React.js, and responsive
-          web design. </p>
-        <p class="text-md-center, text-wrap">A tenacious problem solver with a passion for learning
-          about developing apps with a focus on mobile-first design and
-          development. With each new project, the aim is to best engage the
-          audience for impactful user experience and optimize code for
-          readability and ease-of-use. Using web development skill when
-          combined with a rich work history, attention to detail, and drive
-          for success, can add value to any team.</p>
-        <p class="text-md-center, text-wrap">Currently seeking to join a
-          team of fast-paced, quality-driven associates to build better
-          experiences on the web.
-        </p>
-        <h2 class="social-media">5 things about Me</h2>
-        <br />
-        <!-- ordered list of about me information -->
-        <ol>
-          <li>New Jersey born and raised, also lived in MD and CT</li>
-          <li>Graduate of Albertus Magnus College and New Jersey City University.</li>
-          <li>Holds an AA Degree in English and BA Degree in History (minored in Pre-Law, concentrated in Political
-            Science). </li>
-          <li>Enjoys photograhy and personally took all of the images in the background</li>
-          <li>Is an experienced Club DJ that has performed in NY, NJ, CT, PA, and MASS over the last 18 years.</li>
-        </ol>
+  </section>
+ 
+  <section id="about">
+    <div class="container-fluid card">
+      <h2 class>About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <img src="assets/images/60262556_10218845993397968_2729684645569363968_n.jpg" class="img-fluid" alt="Selfie2" />
+        </div>
+        <div class="col-md-4">
+          <h2 class="social-media">5 things about Me</h2>
+          <br />
+          <!-- ordered list of about me information -->
+          <ol>
+            <li>New Jersey born and raised, also lived in MD and CT</li>
+            <li>
+              Graduate of Albertus Magnus College and New Jersey City
+              University.
+            </li>
+            <li>
+              Holds an AA Degree in English and BA Degree in History (minored in
+              Pre-Law, concentrated in Political Science).
+            </li>
+            <li>
+              Enjoys photograhy and personally took all of the images in the
+              background
+            </li>
+            <li>
+              Is an experienced Club DJ that has performed in NY, NJ, CT, PA,
+              and MASS over the last 18 years.
+            </li>
+          </ol>
+       
+      
+                <h2 class="social-media">Brand Statement</h2>
+                <p class="text-black-50 mb-0">
+                  Full Stack Web Developer leveraging a history/law background to
+                  build a more intuitive user experience on the web.
+                </p>
+                <p class="text-black-50 mb-0">
+                  A graduate from Rutgers University with a certificate in Full Stack
+                  Web Development and concentrated skills in JavaScript, CSS,
+                  React.js, and responsive web design.
+                </p>
+                <p class="text-black-50 mb-0">
+                  A tenacious problem solver with a passion for learning about
+                  developing apps with a focus on mobile-first design and development.
+                </p>
+                <p class="text-black-50 mb-0">
+                  With each new project, the aim is to best engage the audience for
+                  impactful user experience and optimize code for readability and
+                  ease-of-use.
+                </p>
+                <p class="text-black-50 mb-0">
+                  Using web development skill when combined with a rich work history,
+                  attention to detail, and drive for success, can add value to any
+                  team.
+                </p>
+                <p class="text-black-50 mb-0">
+                  Currently seeking to join a team of fast-paced, quality-driven
+                  associates to build better experiences on the web.
+                </p>
+    </div>
+  </div>
+</div>
+</div>
+  </section>
+  <section id="portfolio">
+    <div class="container-fluid card">
+      <h2 class>Portfolio</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <img class="img-fluid" src="assets/images/Screen Shot 2020-07-22 at 11.45.31 AM.png" alt="Virtual-Art_Gallery"></a>
+        </div>
+        <div class="col-md-4">
+          <h4>Virtual Art Gallery</h4>
+          <p class="text-black-50 mb-0">Virtual Art Gallery is an interactive site that enables a user to create
+            a saved list of all the art they enjoy from Magic the Gathering cards. After creating your art
+            collection, you are matched with
+            a humorous giphy that is interrelated to your card art. Users can then save or share their collection
+            using the dropbox button.</p>
+          <a href="https://nlamonaco86.github.io/Virtual_Art_Gallery/" target="_blank">Click here to checkout
+            site</a>
+          <br>
+          <a href="https://github.com/nlamonaco86/Virtual_Art_Gallery" target="_blank">Click here to checkout Github
+            Repo </a>
+        </div>
       </div>
     </div>
   </section>
-  <section id="portfolio">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col col-md-10 card">
-          <h1>To Be Updated</h1>
-          <!-- under construction picture added, will update with content as it is completed -->
-          <img src="images/under-construction-2891888_1920 (1).jpg" class="img-fluid" alt="under construction">
+  <section id="contact">
+    <div class="container-fluid pt-3 my-3 bg-dark text-white">
+      <h3>Contact</h3>
+          <form>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+              </div>
+              <div class="col-md-4">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea class="form-control" rows="4" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-3">
+                <button type="submit" class="btn btn-secondary">Submit</button>
+              </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
   <!-- Footer -->
-  <footer class="page-footer font-small darken-3">
+  <footer class="page-footer">
     <!-- Footer Elements -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- Grid row-->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- Grid column -->
-        <div class="col col-lg-12">
-          <!-- Social buttons -->
-          <ul class="list-unstyled list-inline text-center">
-            <li class="list-inline-item">
-              <a class="btn btn-floating btn-fb btn-lg mx-auto" href="https://www.facebook.com/djxfixi8">
-                <i class="fab fa-facebook-f"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-floating btn-github btn-lg mx-auto" href="https://github.com/jerseyjackpot">
-                <i class="fab fa-github"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-floating btn-reddit btn-lg mx-auto" href="https://www.reddit.com/user/jerseyjackpot">
-                <i class="fab fa-reddit"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-floating btn-li btn-lg mx-auto"
-                href="https://www.linkedin.com/in/jacqueline-smith-57031b61/">
-                <i class="fab fa-linkedin-in"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-floating btn-instagram btn-lg mx-auto" href="https://www.instagram.com/mzjackalina/">
-                <i class="fab fa-instagram"> </i>
-              </a>
-            </li>
-          </ul>
-          </a>
+        <div class="col-lg-12">
+          <div class="d-flex justify-content-around">
+            <a href="https://www.facebook.com/djxfixi8" class="fa fa-facebook">
+            </a>
+            <a href="https://github.com/jerseyjackpot" class="fa fa-github">
+            </a>
+            <a href="https://www.reddit.com/user/jerseyjackpot" class="fa fa-reddit">
+            </a>
+            <a href="https://www.linkedin.com/in/jacqueline-smith-57031b61/" class="fa fa-linkedin">
+            </a>
+            <a href="https://www.instagram.com/mzjackalina/" class="fa fa-instagram">
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    </div>
     <div class="container">
       <!-- Grid row-->
       <div class="row">
         <!-- Grid column -->
-        <div class="col col-lg-12">
-          <div class="d-flex justify-content-center">
-            <h2>&copy;2020 Jacqueline A. Smith</h2>
+        <div class="col-lg-12">
+          <div class="d-flex justify-content-center" id="copyright">
+            <h4>&copy;2020 Jacqueline A. Smith</h4>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Footer -->
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="main.js"></script>
+  
+  <script type="text/javascript" src="assets/js/animation.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
