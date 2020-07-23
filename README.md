@@ -18,7 +18,7 @@ https://jerseyjackpot.github.io/Portfolio/
 
 ![Screen Shot 2020-07-23 at 3 24 42 PM](https://user-images.githubusercontent.com/64985702/88329936-ae830800-ccf8-11ea-80d7-4091a8c95fc3.png)
 
-![Screen Shot 2020-07-22 at 11 45 31 AM](https://user-images.githubusercontent.com/64985702/88330057-d4a8a800-ccf8-11ea-970c-1a6729de404d.png)
+![Screen Shot 2020-07-23 at 3 25 46 PM](https://user-images.githubusercontent.com/64985702/88330501-7cbe7100-ccf9-11ea-9ee8-1bdd5d068c43.png)
 
 ![Screen Shot 2020-07-23 at 3 26 35 PM](https://user-images.githubusercontent.com/64985702/88330118-eee28600-ccf8-11ea-91b8-0dab244a0e0e.png)
 
