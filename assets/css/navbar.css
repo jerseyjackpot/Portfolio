@@ -2,13 +2,17 @@ a {
     color: black;
     font-weight: bolder;
 }
-
+.nav-area {
+    display: flex;
+    justify-content: space-around;
+}
 .navbar {
-    background-color: #5997aa;
+    background-color: #32B3BB;
     margin-bottom: 10px;
     position: fixed;
     width: 100%;
     z-index:1;
+    
 }
 /* Icon 1 */
 .navbar-brand {
@@ -17,14 +21,14 @@ a {
 }
 
 .navbar:hover {
-    background-color: #7E50A0;
+    background-color: #DC98A3;
 }
 
 a:hover {
-    color: #5997aa;
+    color: #32B3BB;
 }
 
-.animated-icon1, .animated-icon2, .animated-icon3 {
+.animated-icon2 {
     width: 30px;
     height: 20px;
     position: relative;
@@ -40,7 +44,7 @@ a:hover {
     cursor: pointer;
     }
     
-    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+ .animated-icon2 span {
     display: block;
     position: absolute;
     height: 3px;
@@ -58,28 +62,12 @@ a:hover {
     transition: .25s ease-in-out;
     }
     
-    .animated-icon1 span {
-    background: black;
-    }
-    
     .animated-icon2 span {
     background: black;
     }
     
-    .animated-icon3 span {
-    background: black;
-    }
-    
-    .animated-icon1 span:nth-child(1) {
-    top: 0px;
-    }
-    
     .animated-icon1 span:nth-child(2) {
     top: 10px;
-    }
-    
-    .animated-icon1 span:nth-child(3) {
-    top: 20px;
     }
     
     .animated-icon1.open span:nth-child(1) {
@@ -143,51 +131,3 @@ a:hover {
     left: 50%;
     }
     
-    /* Icon 4 */
-    
-    .animated-icon3 span:nth-child(1) {
-    top: 0px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-    }
-    
-    .animated-icon3 span:nth-child(2) {
-    top: 10px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-    }
-    
-    .animated-icon3 span:nth-child(3) {
-    top: 20px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-    }
-    
-    .animated-icon3.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0px;
-    left: 8px;
-    }
-    
-    .animated-icon3.open span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-    }
-    
-    .animated-icon3.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: 21px;
-    left: 8px;
-    }

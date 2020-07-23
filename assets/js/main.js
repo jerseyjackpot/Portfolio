@@ -6,7 +6,8 @@ $(document).ready(function () {
   });
 
   $('.navbar-nav>li>a').on('click', function(){
-      $('.navbar-collapse').collapse('hide');
+    $('.animated-icon2').toggleClass('open');  
+    $('.navbar-collapse').collapse('hide');
   });
 
 

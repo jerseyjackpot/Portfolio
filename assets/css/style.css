@@ -17,7 +17,7 @@ body {
 }
 
 footer.page-footer {
-  background-color: #5997aa;
+  background-color: #5A5B6A;
   position: sticky;
   z-index:1;
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
@@ -47,8 +47,8 @@ footer.page-footer {
   text-align: center;
 }
 
-.footer-row,.btn, .btn-secondary, #contact {
-  background-color: #5997aa;
+.footer-row, .btn, #contact {
+  background-color: #5A5B6A;
 }
 .center-content{
 display: flex;
@@ -86,8 +86,11 @@ h2 {
   width: 100%;
 }
 
-.nav-area{
-  display: flex;
-  justify-content: space-between;
+a:hover {
+  text-decoration: none;
 }
 
+
+.btn-secondary {
+  background-color: #D56D95;
+}
