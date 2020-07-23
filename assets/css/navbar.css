@@ -16,8 +16,8 @@ a {
     background-color: #7E50A0;
 }
 
-.nav-link:hover {
-    background-color: black;
+a:hover {
+    color: #5997aa;
 }
 
 .animated-icon1, .animated-icon2, .animated-icon3 {

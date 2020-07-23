@@ -3,7 +3,6 @@ body {
   background-attachment: fixed;
   background-image: url("../images/Website Photo Collage.jpg");
 }
-/* customized flow for ease of reading */
 
 .card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -11,13 +10,15 @@ body {
   margin: 15px;
   padding: 10px;
 }
+.col {
+  padding-top: 2%;
+}
 
 .page-footer {
-  background-color: black;
+  background-color: #5997aa;
   height: 145px;
-
-
 }
+
 .fa {
   padding: 20px;
   font-size: 45px;
@@ -30,16 +31,34 @@ body {
 .fa:hover {
   opacity: 0.5;
 }
+
 #copyright {
   padding-top: 20px;
 }
 
-.form-control {
-  width: auto;
+#animation-card {
+  background-color: #5997aa;
+  padding: 0%;
+}
+.btn-secondary {
+  background-color: #5997aa; 
 }
 
-#animation-card {
-  background-color: #f13f88;
-  padding: 0%;
+.btn {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  background-color: #5997aa;
+}
 
+#contact {
+  background-color: #5997AA;
+  padding: 2%;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bolder;
 }

@@ -1,10 +1,13 @@
 $(document).ready(function () {
     $('.second-button').on('click', function () {
-  
       $('.animated-icon2').toggleClass('open');
     });
+
   });
 
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 // function sendEmail()){
 //     var submitButton;
     
