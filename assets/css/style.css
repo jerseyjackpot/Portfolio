@@ -3,28 +3,34 @@ body {
   flex-direction: column;
   background-attachment: fixed;
   background-image: url("../images/Website Photo Collage.jpg");
+  overflow-x: hidden;
 }
 
-.row {
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
-  padding: 10px;
+.row{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2rem 0;
 }
-.col {
-  padding-top: 2%;
-  display: flex;
+
+.row:not(.diff-bg) {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 footer.page-footer {
   background-color: #5997aa;
   position: sticky;
-  height: 50px;
   z-index:1;
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
 }
 
+.social-media-area {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .fa {
-  padding: 20px;
   font-size: 45px;
   width: 30px;
   text-align: center;
@@ -41,26 +47,17 @@ footer.page-footer {
   text-align: center;
 }
 
-#footer-row {
+.footer-row,.btn, .btn-secondary, #contact {
   background-color: #5997aa;
 }
-#animation-card {
-  background-color: #5997aa;
-  padding: 0%;
-}
-.btn-secondary {
-  background-color: #5997aa;
+.center-content{
+display: flex;
+justify-content: center;
 }
 
 .btn {
   margin-top: 0%;
   margin-bottom: 5%;
-  background-color: #5997aa;
-}
-
-#contact {
-  background-color: #5997aa;
-  padding: 2%;
 }
 
 h4 {
@@ -70,3 +67,27 @@ h4 {
 h2 {
   font-weight: bolder;
 }
+
+.container-fluid {
+  padding-right: 0;
+}
+
+#contact {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.width-limit{
+  max-width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.nav-area{
+  display: flex;
+  justify-content: space-between;
+}
+
