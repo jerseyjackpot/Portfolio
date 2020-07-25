@@ -2,9 +2,12 @@ a {
   color: black;
   font-weight: bolder;
 }
+
 .nav-area {
   display: flex;
   justify-content: space-around;
+  white-space: wrap;
+  font-size: 1rem;
 }
 .navbar {
   background-color: #32b3bb;
@@ -15,16 +18,15 @@ a {
 }
 /* Icon 1 */
 .navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: pre-wrap;
   height: auto;
-  box-sizing: content;
-}
-
-.navbar:hover {
-  background-color: #dc98a3;
-}
-
-a:hover {
-  color: #32b3bb;
+  color: black;
 }
 
 .animated-icon2 {

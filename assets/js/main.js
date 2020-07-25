@@ -11,6 +11,6 @@ $(document).ready(function () {
   });
 
 
-// $(".sendEmail").on("click", function(){
-//   $("#message").attr("href", 'mailto:jerseyjackpot@gmail.com?' + jQuery.param({body:    $('#message').val(), subject: "Portfolio Contact"}));
+// $(" ").on("click", function(){
+//   $(" ").attr("href", 'mailto:jerseyjackpot@gmail.com?' + jQuery.param({body:    $('#message').val(), subject: "Portfolio Contact"}));
 // });

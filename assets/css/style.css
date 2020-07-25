@@ -17,7 +17,7 @@ body {
 }
 
 footer.page-footer {
-  background-color: #5A5B6A;
+  background-color: #32B3BB;
   position: sticky;
   z-index:1;
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16), 0 4px 20px 0 rgba(0,0,0,0.12);
@@ -48,7 +48,7 @@ footer.page-footer {
 }
 
 .footer-row, .btn, #contact {
-  background-color: #5A5B6A;
+  background-color: #32B3BB;
 }
 .center-content{
 display: flex;
@@ -84,6 +84,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  
 }
 
 a:hover {
@@ -93,4 +94,14 @@ a:hover {
 
 .btn-secondary {
   background-color: #D56D95;
+}
+
+.card {
+  background-color: #FDD3AE;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.email:hover {
+  color: #D56D95;
 }
