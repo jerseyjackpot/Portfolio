@@ -5,6 +5,9 @@ body {
   background-image: url("../images/Website Photo Collage.jpg");
   overflow-x: hidden;
 }
+a:hover {
+  color: #fdd3ae;
+}
 
 .row{
   margin-left: 0;
@@ -86,11 +89,6 @@ h2 {
   width: 100%;
   
 }
-
-a:hover {
-  text-decoration: none;
-}
-
 
 .btn-secondary {
   background-color: #D56D95;
